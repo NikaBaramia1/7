@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table{
+    font-size: 16px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 50vh;
+    height: 20vh;
+    background: white;
+}
+
+tr,td,th{
+    border: 1px solid #ddd;
+    padding: 12px 16px;
+}
+
+th,td{
+    background-color: grey;
+    color: white;
+}
+
+th,td:hover{
+    background-color: rgb(104, 104, 104);
+}
+
+.student-name{
+    background-color: grey;
+}
+
+.course-name{
+    background-color: black;
+}
